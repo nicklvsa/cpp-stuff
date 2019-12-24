@@ -17,6 +17,7 @@ class Extended: public Base {
         }
 };
 
+
 void greet(const Base &base) {
     cout << "Greetings: ";
     base.say_hello();
@@ -24,9 +25,9 @@ void greet(const Base &base) {
 
 
 int main(int argc, const char* argv[]) {
-    
     Base base;
     Extended extended;
+
     
 
     //cout << "this is a test" << endl;
